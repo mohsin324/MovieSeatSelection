@@ -10,6 +10,13 @@
 <body>
     <div class="container">
         <h2>Welcome to Cinema</h2>
+        <div class="movieContainer">
+            <select id="movie">
+                <option value="15">Top Gun: Maverick ($15)</option>
+                <option value="10">No Time To Die ($10)</option>
+                <option value="25">The Lion King ($25)</option>
+            </select>
+        </div>
         <div class="screen"></div>
         <div class="row" id="rowOne">
             <div class="column" id="seat"></div>
@@ -52,7 +59,7 @@
             <div class="column"></div>
         </div>
         <div class="bottom">
-            <p>you have booked no of seates <p>0</p> with no of price $<p>0</p> </p>
+            <p>you have booked no of seates <span id="bookSeat"></span> with no of price $<span id="amount">0</span> </p>
         </div>
 
     </div>
